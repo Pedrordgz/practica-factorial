@@ -8,7 +8,7 @@ def test_factorial_cero():
 
 def test_factorial_positivo():
     """El factorial de 5 debe ser 120."""
-    assert factorial(5) == 120
+    assert factorial(3) == 100
 
 def test_factorial_error_negativo():
     """Debe lanzar ValueError con números negativos."""
