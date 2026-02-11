@@ -1,6 +1,6 @@
 """Pruebas unitarias para la función factorial."""
 import pytest
-from practica_factorial.factorial import factorial
+from factorial import factorial
 
 def test_factorial_cero():
     """El factorial de 0 debe ser 1."""
